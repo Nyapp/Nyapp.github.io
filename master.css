@@ -67,10 +67,10 @@ img, iframe{
 }
 
 #enIcon a{
-    bottom: 120px;
-    right: 45px;
+    bottom: 45px;
+    right: 30px;
     position: fixed;
-    font-size: 32px;
+    font-size: 60px;
     text-decoration: none;
     color: white;
 }
