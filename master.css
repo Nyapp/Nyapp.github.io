@@ -9,7 +9,7 @@ body{
     padding: 20px;
 }
 
-#mail{
+#tel{
     text-align: center;
     background-color: black;
     left: 0;
@@ -18,7 +18,7 @@ body{
     position: fixed;
 }
 
-#mail a{
+#tel a{
     background-color: black;
     text-decoration: none;
     color: white;
