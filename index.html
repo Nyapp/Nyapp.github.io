@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+   <link rel="stylesheet" href="master.css">
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <script src="hoge.js"></script>
+   <meta charset="UTF-8">
+   <title>NAMECARD</title>
 </head>
 <body>
-    YUKI TAMURA
-    
+   <div id="loading"></div>
+       <nav id="mail">
+        <a href="mailto: brave.1020@gmail.com">
+            <span class="langChange" lang="ja">メールを送る</span>
+            <span class="langChange" lang="en">send E-mail</span>
+        </a> 
+     </nav>
+   <header>
+     
+      <form>
+         <input type="radio" name="lang" id="ja" onclick="langSet('ja')">
+         <label for="ja">日本語</label>
+         <input type="radio" name="lang" id="en" onclick="langSet('en')">
+         <label for="en">English</label>
+      </form>
+   </header>
+   <br>
+   <h1>
+    <span class="langChange" lang="ja">田村 勇樹</span>
+    <span class="langChange" lang="en">YUKI TAMURA</span>
+    </h1>
+   <p>
+       <span class="langChange" lang="ja">福岡 - フリーランス</span>
+       <span class="langChange" lang="en">Japan Fukuoka - Freelance</span>
+   </p>
+   <br>
+   <p class="gray"p>
+    <span class="langChange" lang="ja">紹介文</span>
+    <span class="langChange" lang="en">Introduction</span>
+   </p>
+   <p class="gray">
+            <span class="langChange" lang="ja">過去に十数本のビデオゲーム、その他にアニメやwebCMのサウンド開発を担当してきました。また2016年からAI・人工知能、ロボティクスの分野では主にプロジェクトマネージャー、UIUXデザイナーやプログラマーとして活躍してきました。最新の技術やガジェットが好きなので、ITを使って社会問題や企業課題を解決できるキュレーターのような存在を目指しています。</span>
+            <span class="langChange" lang="en">In the past I have been in charge of developing more than ten video games and other animation and webCM sounds. Since 2016, I've been active as a project manager, UIUX designer and programmer mainly in the fields of AI · artificial intelligence and robotics. I like the latest technology and gadget, so I aim to be like a curator who can solve social problems and corporate issues using IT.</span>
+        </p>
+   <br>
+   <p class="gray">
+       
+   </p>
 </body>
 </html>
