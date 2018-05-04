@@ -83,8 +83,10 @@ input:checked+label{
 }
 
 #loading{
-    width: 100%;
-    height: 100%;
+    top: 0;
+    left: 0;
+    width: 10000px;
+    height: 10000px;
     background-color: white;
     position: fixed;
     z-index: 1;
