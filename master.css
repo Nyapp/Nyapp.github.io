@@ -57,13 +57,22 @@ img, iframe{
 #enIcon{
     bottom: -50px;
     right: -50px;
-    width: 300px;
-    height: 300px;
-    background-color: red;
+    width: 250px;
+    height: 250px;
+    background-color: black;
     position: fixed;
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px;
-    border-bottom-left-radius: 150px;
+    border-top-left-radius: 125px;
+    border-top-right-radius: 125px;
+    border-bottom-left-radius: 125px;
+}
+
+#enIcon a{
+    bottom: 120px;
+    right: 45px;
+    position: fixed;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
 }
 
 input[type=radio]{
