@@ -14,7 +14,6 @@ window.onload = function() {
 // =========================================================
 function langSet(argLang){
 // --- 切り替え対象のclass一覧を取得 ----------------------
-    
     var elm = document.getElementsByClassName("langChange");
     for (var i = 0; i < elm.length; i++) {
     // --- 選択された言語と一致は表示、その他は非表示 -------
@@ -23,6 +22,6 @@ function langSet(argLang){
     }
     else{
         elm[i].style.display = 'none';
-    }    
+    }
   }
 }
