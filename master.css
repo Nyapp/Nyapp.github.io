@@ -50,6 +50,7 @@ img, iframe{
     object-fit: cover;
     float: left;
     margin-right: 8px;
+    margin-left: 20px;
     background-color: white;
 }
 
