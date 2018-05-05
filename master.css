@@ -7,6 +7,7 @@ body{
     margin: 0 auto;
     width: 940px;
     padding: 20px;
+    -webkit-text-size-adjust-:100%;
 }
 
 #tel{
@@ -32,7 +33,7 @@ h1, h2, h3, h4,h5, h6{
 
 p{
     margin: 0px;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .portfolio{
@@ -59,7 +60,7 @@ img, iframe{
     right: -40px;
     width: 260px;
     height: 260px;
-    background-color: red;
+    background-color: yellow;
     position: fixed;
     border-top-left-radius: 130px;
     border-top-right-radius: 130px;
