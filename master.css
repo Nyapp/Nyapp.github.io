@@ -7,7 +7,7 @@ body{
     margin: 0 auto;
     width: 940px;
     padding: 20px;
-    -webkit-text-size-adjust-:100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 #tel{
@@ -36,22 +36,27 @@ p{
     font-size: 25px;
 }
 
+/*
 .portfolio{
     width: 900px;
     height: 200px;
 }
+*/
 
 p.gray{
     color: gray;
 }
 
 img, iframe{
-    width: 320px;
-    height: 180px;
+    width: 100%;
+/*    width: 320px;*/
+/*    height: 180px;*/
     object-fit: cover;
     float: left;
+/*
     margin-right: 8px;
     margin-left: 20px;
+*/
     background-color: white;
 }
 
@@ -60,7 +65,7 @@ img, iframe{
     right: -40px;
     width: 260px;
     height: 260px;
-    background-color: yellow;
+    background-color: red;
     position: fixed;
     border-top-left-radius: 130px;
     border-top-right-radius: 130px;
